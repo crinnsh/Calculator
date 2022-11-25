@@ -21,6 +21,10 @@ buttons.map(button => {
                 }
                 break;
 
+            /* case "^":
+                screen.innerText = screen.innerText + "**";
+                break; */
+
             case "=":
                 try {
                     /* screen.innerText = eval(screen.innerText); */
