@@ -25,7 +25,7 @@ buttons.map(button => {
                 try {
                     /* screen.innerText = eval(screen.innerText); */
                     result = eval(screen.innerText);
-                    screen.innerText = result.toFixed(4);
+                    screen.innerText = Math.floor(result * 1000) / 1000;
                 } catch {
                     screen.innerText = "Noooooooo!"
                 }
